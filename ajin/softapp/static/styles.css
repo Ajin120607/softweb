@@ -1,0 +1,97 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* fallback color */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Banner section with background image */
+.banner {
+    background-image: url('rest.jpeg'); /* Change this to the path of your image */
+    background-size: cover;
+    background-position: center;
+    height: 1500px; /* Adjust the height of the banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    z-index: 1; /* Makes sure the text is above the background */
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #da7c7c;
+    color: rgb(228, 220, 220);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Other sections styling */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+section .menu ul {
+    list-style-type: none;
+}
+
+section .menu li {
+    margin: 15px 0;
+}
+
+section .team-member {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+section .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
